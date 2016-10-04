@@ -28,3 +28,12 @@ Compiles and runs the counter example (see http://elm-lang.org/examples/buttons)
 Open http://localhost:3000
 
 Changes in elm-files are automatically compiled and reloaded in your browser - the current state of the application is preserved thanks to elm-hot-loader.
+
+
+## elm-format
+
+To format your Elm code install [elm-format](https://github.com/avh4/elm-format) locally and run
+
+```
+npm run format
+```
