@@ -1,12 +1,11 @@
 module Main exposing (..)
 
 import Html exposing (Html, button, div, text, h1)
-import Html.App as App
 import Html.Events exposing (onClick)
 
 
 main =
-    App.program
+    Html.program
         { init = init
         , view = view
         , update = update
