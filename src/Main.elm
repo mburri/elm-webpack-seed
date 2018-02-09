@@ -4,6 +4,7 @@ import Html exposing (Html, button, div, text, h1)
 import Html.Events exposing (onClick)
 
 
+main : Program Never Model Msg
 main =
     Html.program
         { init = init
@@ -36,6 +37,7 @@ init =
 -- UPDATE
 
 
+update : Msg -> Model -> ( Model, Cmd msg )
 update msg model =
     case msg of
         Increment ->
@@ -58,6 +60,7 @@ subscriptions model =
 -- VIEW
 
 
+view : Model -> Html Msg
 view model =
     div []
         [ h1 [] [ text "counters" ]
