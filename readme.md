@@ -13,7 +13,7 @@ npm install -g elm
 
 Verify Installation:
 ```
-elm --version // => 0.17.1
+elm --version // => 0.18.0
 ```
 
 Clone this repo.
